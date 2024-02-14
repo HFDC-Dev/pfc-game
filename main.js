@@ -18,7 +18,6 @@ choixPossibles.forEach(choixPossible => choixPossible.addEventListener('click', 
     // récupération de l'ID du boutton 
     choixUtilisateur = e.target.id;
     // Ajout d'image correspondant au choix de l'utilisateur
-    contenantChoixUtilisateur.innerHTML = `<img src="images/${choixUtilisateur}.png">`
     generer_choix_ordinateur()
     verification()
 }))
